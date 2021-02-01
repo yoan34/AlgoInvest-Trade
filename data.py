@@ -23,7 +23,7 @@ shares = [
     {'share': 'share-20', 'cost': 10, 'profit': 5},
 ]
 
-def create_shares(n=100000, min_cost=100, max_cost=1000, min_profit=1, max_profit=19):
+def create_shares(n=100000, min_cost=1, max_cost=1000, min_profit=1, max_profit=19):
     data = []
     for i in range(n):
         if min_cost > max_cost:
